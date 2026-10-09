@@ -1,0 +1,7 @@
+.venv
+Penguinone.db
+
+typings
+
+__pycache__/
+*.py[oc]
