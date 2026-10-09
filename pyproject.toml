@@ -1,0 +1,20 @@
+[project]
+name = "layadb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Lucille", email = "144396231+LucilleStrat@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "laya>=0.3.22",
+    "pydantic>=2.13.5",
+]
+
+[project.scripts]
+layadb = "layadb:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
