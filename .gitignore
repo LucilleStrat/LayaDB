@@ -1,5 +1,5 @@
 .venv
-Penguinone.db
+*.db
 
 typings
 
